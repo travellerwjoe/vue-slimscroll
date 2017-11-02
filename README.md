@@ -1,15 +1,16 @@
-#vue-slimscroll
+# vue-slimscroll
 Vue-slimscroll is a directive plugin for Vue.js, which can transforms any div into a scrollable area with a nice scrollbar.
+
 The original jQuery version is here[https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll).
 
-##Install
-1.Install it by using npm.
+## Install
+- Install it by using npm.
 
 ```
 npm i vue-slimscroll
 ```
 
-2.Import it at `vue` project.
+- Import it at `vue` project.
 
 ```
 import Vue rom 'vue'
@@ -18,7 +19,7 @@ import VueSlimScroll from 'vue-slimscroll'
 Vue.use(VueSlimScroll)
 ```
 
-##Usage
+## Usage
 
 Using the `v-slimscroll` directive
 ```
@@ -52,5 +53,5 @@ Using directive with options
 ```
 > The `options` is same as jQuery version. See their [documentation](http://rocha.la/jQuery-slimScroll)
 
-##License
+## License
 [MIT](http://opensource.org/licenses/MIT)
