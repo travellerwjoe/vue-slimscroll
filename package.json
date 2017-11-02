@@ -1,0 +1,11 @@
+{
+  "name": "vue-slimscroll",
+  "version": "1.0.0",
+  "description": "Vue-slimscroll is a directive plugin for Vue.js, which can transforms any div into a scrollable area with a nice scrollbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jow.wu",
+  "license": "MIT"
+}
