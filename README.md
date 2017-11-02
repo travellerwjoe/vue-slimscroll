@@ -12,7 +12,7 @@ npm i vue-slimscroll
 
 - Import it at `vue` project.
 
-```
+``` js
 import Vue rom 'vue'
 import VueSlimScroll from 'vue-slimscroll'
 ...
@@ -22,7 +22,7 @@ Vue.use(VueSlimScroll)
 ## Usage
 
 Using the `v-slimscroll` directive
-```
+``` html
 <template>
     <div v-slimscroll>
         ...
@@ -32,7 +32,7 @@ Using the `v-slimscroll` directive
 
 Using directive with options
 
-```
+``` html
 <template>
     <div v-slimscroll="options">
     ...
