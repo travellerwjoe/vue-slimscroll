@@ -8,5 +8,5 @@
     "build": "webpack --progress"
   },
   "author": "jow.wu",
-  "license": "MIT",
+  "license": "MIT"
 }
