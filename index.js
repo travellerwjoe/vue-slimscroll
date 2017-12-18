@@ -673,10 +673,10 @@ var VueSlimScroll = {}
 VueSlimScroll.install = function (Vue) {
     var ss
     Vue.directive('slimscroll', {
-        inserted(el, binding) {
+        inserted: function (el, binding) {
             ss = SlimScroll(el, binding.value)
         },
-        unbind() {
+        unbind: function () {
             ss.unbind()
         }
     })
